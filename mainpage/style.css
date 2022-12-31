@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo img{
+    width: 140px;
+}
+.main-container{
+    width: 100%;
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -17px;
+}
+.navbar ul li:hover{
+    text-decoration-line: underline;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 50px;
+}
+.navbar ul li{
+    list-style: none;
+    
+}
+.navbar ul li a{
+    text-decoration: none;  
+    font-weight: bold;
+    color: #000;
+}
+.fa-img{
+    background: url(../assets/pexels-abhinav-goswami-291528.jpg);
+    height: 100vh;
+    background-size: cover;
+    margin-top: -4px;
+    position: relative;
+    filter: blur(2px);
+}
+.fa-content{
+    position: absolute;
+    transform: translate(157px, -580px);
+    color: aliceblue;
+}
+.fa-content h1:hover{
+    transition: 0.6s;
+    font-size: 80px;
+}
+.fa-content h3:hover{
+    transition: 0.6s;
+    font-size: 30px;
+}
+.fa-content h1{
+    padding-top: 30px;
+    font-size: 70px;
+}
+.fa-content h3{
+    padding-top: 30px;
+    font-size: 25px;
+}
+.fa-content button{
+    padding: 15px;
+    background: transparent;
+    color: aliceblue;
+    border: 3px solid aliceblue;
+    border-radius: 0.5rem;
+    font-size: 18px;
+    font-weight: bold;
+}
+.btns a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.btns{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.btns button:hover{
+    transition: 0.6s;
+    padding: 20px;
+    font-size: 22px;
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-size: large;
+    padding: 20px;
+    margin-top: 1px;
+    background-color: rgb(141, 136, 136);
+}
+.container{
+    width: 100%;
+}
+.container img{
+    width: 760px;
+    height: 500px;
+}
+.eat{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -4px;
+}
+.drink{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -4px;
+}
+.enjoy{
+    display: flex;
+    justify-content: space-between;
+}
+.eat h1{
+    font-size: 70px;
+    padding: 40px 150px;
+}
+.eat p{
+    padding: 0 150px;
+}
+.drink h1{
+    font-size: 70px;
+    padding: 40px 150px;
+}
+.drink p{
+    padding: 0 150px;
+}
+.enjoy h1{
+    font-size: 70px;
+    padding: 40px 150px;
+}
+.enjoy p{
+    padding: 0 150px;
+}
+
+.drop{
+    background-color: antiquewhite;
+    margin-top: -17px;
+}
+.drop h1{
+    text-align: center;
+    padding: 40px;
+    font-size: 60px;
+}
+.fa-add{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+.address{
+    border-right: 2px solid #000;
+    padding-right: 130px;
+}
+.address h2{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.timing h2{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.timing{
+    padding-left: 65px;
+}
+.cakes{
+    display: flex;
+}
+.img1 img{
+    width: 303.9px;
+    height: 400px;
+}
+.img1 img:hover{
+    padding: 20px;
+    transition: 0.5s;
+}
+
+footer{
+    background-color: rgb(58, 52, 52);
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    margin-top: -4px;
+}
+
+.socials{
+    display: flex;
+    padding: 10px;
+    gap: 40px;
+}
+.img2:hover{
+    transition: 0.6s;
+    border: 1px solid #fff;
+    border-radius: 2rem;
+    background-color: #fff;
+}
+.talk h1{
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+.talk p{
+    padding: 5px;
+    margin-left: 75px;
+}
+.talk span{
+    margin-left: 50px;
+}
+.blank{
+    background-color: #000;
+    padding: 20px;
+    margin-top: -6.5px;
+}
+
+/* Order */
+.items1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 20px;
+}
+.item1{
+    border: 1px solid rgb(125, 122, 122);
+    padding: 30px;
+}
+.items2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    gap: 20px;
+}
+.item2{
+    border: 1px solid rgb(125, 122, 122);
+    padding: 30px;
+}
+.items3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    gap: 20px;
+}
+.item3{
+    border: 1px solid rgb(125, 122, 122);
+    padding: 30px;
+}
+.items4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 90px;
+    gap: 20px;
+}
+.item4{
+    border: 1px solid rgb(125, 122, 122);
+    padding: 30px;
+}
+.order-cont{
+    background-color: antiquewhite;
+}
+.order-cont h1{
+    padding: 20px;
+    text-align: center;
+    font-size: 70px;
+}
+.item1:hover{
+    border-radius: 1rem;
+    transition: 0.6s;
+    padding: 40px;
+    font-size: 20px;
+}
+.item2:hover{
+    border-radius: 1rem;
+    transition: 0.6s;
+    padding: 40px;
+    font-size: 20px;
+}
+.item3:hover{
+    border-radius: 1rem;
+    transition: 0.6s;
+    padding: 40px;
+    font-size: 20px;
+}
+.item4:hover{
+    border-radius: 1rem;
+    transition: 0.6s;
+    padding: 40px;
+    font-size: 20px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.items{
+    text-align: center;
+}
+.select{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.quantity{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.pound{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.date{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.period{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+#a{
+    padding: 9px 100px;
+    border-radius: 0.3rem;
+    border: 0.3px solid #000;
+}
+#b{
+    margin-bottom: 5px;
+    text-align: center;
+}
+#buy{
+    padding: 11px 150px;
+    border-radius: 0.3rem;
+    border: 0;
+    background-color: #c37820;
+    color: aliceblue;
+    font-weight: bold;
+}
+.buy{
+    margin-bottom: 30px;
+}
