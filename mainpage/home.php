@@ -26,7 +26,6 @@ require('../navbar/index.php');
           <h1>Delicious Cakes & Coffee</h1>
           <div class="btns">
             <div class="btn1"><button><a href="../mainpage/order.php">Order Now</a></button></div>
-            <div class="btn2"><button><a href="">Our Menu</a></button></div>
           </div>
         </div>
       </div>
@@ -91,7 +90,7 @@ require('../navbar/index.php');
         <div class="img1"><img src="../assets/2.jpg" alt="" /></div>
         <div class="img1"><img src="../assets/3.jpg" alt="" /></div>
         <div class="img1"><img src="../assets/4.jpg" alt="" /></div>
-        <div class="img1"><img src="../assets/5.jpg" alt="" /></div>
+        <div class="img1" id="imgd"><img src="../assets/5.jpg" alt="" /></div>
       </div>
       <div class="blank">
         psdfsfdsf

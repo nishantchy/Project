@@ -21,12 +21,14 @@ include "../databaseconnection/messageconn.php";
         <div class="blackfield">
             <div class="socials">
                 <div class="img2">
-                  <img src="../assets/icons8-facebook (1).svg" alt="" />
+                  <a href="https://www.facebook.com/profile.php?id=100011083328081"><img src="../assets/icons8-facebook (1).svg" alt="" /></a>
                 </div>
                 <div class="img2">
-                  <img src="../assets/icons8-instagram.svg" alt="" />
+                  <a href="https://www.instagram.com/cakeyy_e/"><img src="../assets/icons8-instagram.svg" alt="" /></a>
                 </div>
-                <div class="img2"><img src="../assets/icons8-google.svg" alt="" /></div>
+                <div class="img2">
+                    <a href=""><img src="../assets/icons8-google.svg" alt="" /></a>
+                </div>
               </div>
         </div>
         <h1>Send a Message</h1>
@@ -38,7 +40,8 @@ include "../databaseconnection/messageconn.php";
                 </div>
                 <div class="message">
                     <label for="" id="a">Message</label>
-                    <input type="text" name="msg" id="b">
+                    <!-- <input type="text" name="msg" id="b"> -->
+                    <textarea name="msg" id="" cols="10" rows="3"></textarea>
                 </div>
                 <div class="send">
                     <input type="submit" name="submit" id="btn" value="Send Message">

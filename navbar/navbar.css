@@ -40,3 +40,10 @@ body{
     font-weight: bold;
     color: #000;
 }
+
+/* responsive */
+@media only screen and (max-width: 600px) {
+    .navbar a{
+        font-size: 20px;
+    }
+}

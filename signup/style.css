@@ -67,3 +67,18 @@
 .foot{
     text-align: center;
 }
+.error{
+    display: none;
+    font-size: 14px;
+    color: aliceblue;
+}
+.error1{
+    display: none;
+    font-size: 14px;
+    color: aliceblue;
+}
+.error2{
+    display: none;
+    font-size: 14px;
+    color: aliceblue;
+}
